@@ -177,12 +177,42 @@ body {
     color: rgba(255,152,0,1);
 }
 
+.top {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #26A69A;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.top a {
+    color: #fff;
+    margin: 0;
+}
+
 @media screen and (max-width: 800px ) {
     
     .herocontent {
         width: 100%;
         height: auto;
         padding: 6rem 0;
+    }
+
+    .herocontent__title {
+        font-size: 3rem;
+    }
+
+    .herocontent__subtitle {
+        font-size: 1.5rem;
+    }
+
+    .maincontent__permalink {
+        margin-bottom: 2rem;
     }
 
 }

@@ -141,6 +141,12 @@ body {
     display: block;
 }
 
+.maincontent__headline {
+    font-size: 1rem;
+    color: #666;
+    font-weight: bold;
+}
+
 .maincontent__img {
     width: 100%;
     height: auto;
@@ -153,10 +159,30 @@ body {
 }
 
 .maincontent__img--border {
-    border: 1px solid #232223;
-    margin-bottom: 1rem;
+    border: 1px solid rgba(0,0,0,0.25);
+    margin-bottom: 30px;
 }
 
 .maincontent__permalink {
-    color: rgba(255,152,0 ,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background: rgba(255,152,0,1);
+    color: #fff;
+}
+
+.maincontent__permalink__active {
+    color: rgba(255,152,0,1);
+}
+
+@media screen and (max-width: 800px ) {
+    
+    .herocontent {
+        width: 100%;
+        height: auto;
+        padding: 6rem 0;
+    }
+
 }
